@@ -1,0 +1,135 @@
+.homeBack{
+  background-color: rgb(255, 255, 255);
+}
+
+.aboutBack{
+  background-color: rgb(255, 255, 150);
+}
+
+h1{
+  color:rgb(0, 0, 0);
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.menu{
+    background-color:rgb(0, 95, 255);
+    color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+.box{
+  font-size: 15px;
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-evenly;
+}
+
+.button{
+  background-color: rgb(0,0,0);
+  width: 48%;
+  height: 300px;
+  display:flex;
+  justify-content: center;
+}
+
+.gamesBack{
+  background-color: rgb(255, 150, 150);
+}
+
+.gameText{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+.item p{
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.grid{
+  background-color: rgb(200, 0, 0);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  border-radius: 150px;
+  border-color: rgb(255, 0, 0);
+  border-width: 5px;
+}
+
+.item{
+  position: relative;
+}
+.item p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+.description {
+  display: flex;
+  justify-content: space-evenly;
+}
+.description h1 {
+  font-size: 35px;
+}
+.description p {
+  font-size: 25px;
+}
+
+.robotBack{
+  background-color: rgb(100, 100, 100);
+}
+
+.robotText{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.projectBack{
+  background-color: rgb(255, 200, 200);
+}
+
+.projectText{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+.otherBack{
+  background-color: rgb(200, 200, 255);
+}
+
+.otherText{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+.button a:link{
+  color: rgb(0,0,0);
+}
+.button a:visited{
+  color: rgb(0,0,0);
+}
+
+.Rlink a:link{
+  color: rgb(255,155,0);
+}
+.Rlink a:visited{
+  color: rgb(255,255,0);
+}
+
+.menu a:link{
+  color: rgb(255,255,255);
+}
+.menu a:visited{
+  color: rgb(255,255,0)
+}
+
+.menu img{
+  height: 40pt;
+  opacity: 100;
+}
